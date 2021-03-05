@@ -1,10 +1,10 @@
 # cheeserVM
 A virtual machine with a custom instruction set.
-
+<pre>
 Usage:
 cheeserVM.exe -i cheeserExecutable.bin | Executes a given cheeserBinary
 
-<pre>Architecture:
+Architecture:
 IP = 0 = Instruction pointer points to the next instruction in a program.
 MP = 0 = Memory pointer holds a adress of memory
 CP = 0 = Code pointer points at the end of the program
