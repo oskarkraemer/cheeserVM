@@ -4,7 +4,7 @@ A virtual machine with a custom instruction set.
 Usage:
 cheeserVM.exe -i cheeserExecutable.bin | Executes a given cheeserBinary
 
-Architecture:
+<pre>Architecture:
 IP = 0 = Instruction pointer points to the next instruction in a program.
 MP = 0 = Memory pointer holds a adress of memory
 CP = 0 = Code pointer points at the end of the program
@@ -38,3 +38,4 @@ XX = 2 byte parameter
 
 0x09: OUT - Prints the value at MP to the console.
 0x0A: INP - Gets one byte from console.
+</pre>
